@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Monty';
     src: url('https://fonts.googleapis.com/css?family=Montserrat');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -79,15 +79,13 @@ a.active {
 div.one {
     width: 40%;
     float: right;
-    margin: 1% auto;
-    clear: both;
+    margin: 10px auto;
 }
 
 div.two {
     width: 40%;
     float: right;
-    margin: 1% auto;
-    clear: both;
+    margin: 10px auto;
 }
 
 h1 {
@@ -177,7 +175,17 @@ li {
     width: 75%;
     margin: 5px auto;
 }
+table {
+    border: solid #57080E 2px;
+    padding: 10px;
+    border-collapse: separate;
 
+}
+
+tr {
+   background-color: #000206;
+   color: #8468AA;
+}
 blockquote {
     text-align: center;
     color: #8468AA;
