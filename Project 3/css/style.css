@@ -46,6 +46,7 @@ nav {
     padding: 1%;
     text-align: center;
     list-style: none;
+    display: inline;
 }
 #pages {
     list-style: none;
@@ -77,13 +78,13 @@ a.active {
 /*Main Body*/
 
 div.one {
-    width: 40%;
+    width: 30%;
     float: right;
     margin: 10px auto;
 }
 
 div.two {
-    width: 40%;
+    width: 30%;
     float: right;
     margin: 10px auto;
 }
@@ -176,15 +177,39 @@ li {
     margin: 5px auto;
 }
 table {
-    border: solid #57080E 2px;
+    display: table;
     padding: 10px;
-    border-collapse: separate;
+    font-size: 0.938em;
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+
+}
+th {
+    text-align: left;
+    font-size: 1.5em;
+    background-color: #076472;
 
 }
 
 tr {
-   background-color: #000206;
-   color: #8468AA;
+    border: solid #49297f 4px;
+    background-color: #1d0026;
+    color: #8468AA;
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.odd {
+    background-color: #260007;
+    color: #8468AA;
+    border: solid #49297f 4px;
+}
+
+tr:hover {
+    background-color: #2d3f46;
 }
 blockquote {
     text-align: center;
@@ -216,10 +241,6 @@ figure {
 }
 
 /*footer*/
-
-div.footer {
-    margin: 1% auto;
-}
 
 footer {
     padding: 20px;
